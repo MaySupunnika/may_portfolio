@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <div className="flex flex-col">
         <div
-          className="h-[12rem] lg:h-[20rem] bg-contact-img flex"
+          className="h-[12rem] lg:h-[20rem] bg-[url('https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/images/bg-portfolio.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS9pbWFnZXMvYmctcG9ydGZvbGlvLmpwZyIsImlhdCI6MTcwMjkxNzUxMiwiZXhwIjoxNzM0NDUzNTEyfQ.MOR6h7oVV-4Xq6F-3Own_IeNwo-zilOeRKeVSRvpkmg&t=2023-12-18T16%3A38%3A32.721Z')] flex"
           id="Contact"
         >
           <img

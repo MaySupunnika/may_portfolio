@@ -22,7 +22,7 @@ export default function Projects() {
     <>
       <div
         id="Projects"
-        className="flex bg-project-img h-screen object-cover bg-left pt-[3rem] lg:pt-[7rem] pl-[2rem] lg:pl-[5rem]"
+        className="flex bg-[url('https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/images/bg-project.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS9pbWFnZXMvYmctcHJvamVjdC5wbmciLCJpYXQiOjE3MDI5MTc0NDIsImV4cCI6MTczNDQ1MzQ0Mn0.iBj4bfaAVI8CpRWlBRND81s2bPC73y7DmCXRJ2dvbnI&t=2023-12-18T16%3A37%3A22.671Z')] h-screen object-cover bg-left pt-[3rem] lg:pt-[7rem] pl-[2rem] lg:pl-[5rem]"
       >
         <div className="flex flex-col">
           <h1 className="text-h2 lg:text-h1 font-extrabold text-white mt-[2rem] mb-[3rem]">

@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <>
       <div
-        className="h-screen bg-skill-img flex flex-col items-center"
+        className="h-screen bg-[url('https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/images/bg-white-small.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS9pbWFnZXMvYmctd2hpdGUtc21hbGwucG5nIiwiaWF0IjoxNzAyOTE3MzY5LCJleHAiOjE3MzQ0NTMzNjl9.SjUc6YjGyfBxRy00u3GFjAhCsTSI1ifVASL9zVxH8II&t=2023-12-18T16%3A36%3A09.880Z')] flex flex-col items-center"
         id="Skills"
       >
         <h1 className="text-h2 lg:text-h1 text-gray-100 font-extrabold lg:pt-[8rem] pt-[6rem]">

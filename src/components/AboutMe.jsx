@@ -4,7 +4,10 @@ import Picture from "../assets/S__4874242.jpg";
 export default function AboutMe() {
   return (
     <>
-      <div className=" flex justify-between bg-about-img h-screen" id="About">
+      <div
+        className=" flex justify-between bg-[url('https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/images/bg-orange-contact.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS9pbWFnZXMvYmctb3JhbmdlLWNvbnRhY3QuanBnIiwiaWF0IjoxNzAyOTE3Mjg0LCJleHAiOjE3MzQ0NTMyODR9.N8E9p35iMhMtxAqFzS0E6RCuCHnt-Ei6ersUrtQJTg4&t=2023-12-18T16%3A34%3A44.978Z')] h-screen"
+        id="About"
+      >
         <div className=" text-white font-bold  text-h2 lg:text-h1 leading-tight ml-[5rem] pt-[11rem]">
           A<br />B<br />O<br />U<br />T<br className="lg:hidden" />
           <span className="lg:ml-5 ml-[-0.35rem]">

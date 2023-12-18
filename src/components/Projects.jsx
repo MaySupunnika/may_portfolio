@@ -38,7 +38,7 @@ export default function Projects() {
             {current === 1 && (
               <>
                 <div className="flex flex-col items-center">
-                  <div className="flex bg-contact-img w-[40rem] h-[17rem] rounded-full">
+                  <div className="flex bg-[url('https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/images/bg-portfolio.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS9pbWFnZXMvYmctcG9ydGZvbGlvLmpwZyIsImlhdCI6MTcwMjkxNzUxMiwiZXhwIjoxNzM0NDUzNTEyfQ.MOR6h7oVV-4Xq6F-3Own_IeNwo-zilOeRKeVSRvpkmg&t=2023-12-18T16%3A38%3A32.721Z')] w-[40rem] h-[17rem] rounded-full">
                     <div className="flex flex-col">
                       <h2 className="text-h2 font-extrabold text-white mt-3 ml-[5rem]">
                         Course Flow
@@ -67,7 +67,7 @@ export default function Projects() {
               <>
                 {" "}
                 <div className="flex flex-col items-center">
-                  <div className="flex bg-contact-img w-[40rem] h-[17rem] rounded-full">
+                  <div className="flex bg-[url('https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/images/bg-portfolio.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS9pbWFnZXMvYmctcG9ydGZvbGlvLmpwZyIsImlhdCI6MTcwMjkxNzUxMiwiZXhwIjoxNzM0NDUzNTEyfQ.MOR6h7oVV-4Xq6F-3Own_IeNwo-zilOeRKeVSRvpkmg&t=2023-12-18T16%3A38%3A32.721Z')] w-[40rem] h-[17rem] rounded-full">
                     <div className="flex flex-col">
                       <h2 className="text-h2 font-extrabold text-white mt-3 ml-[5rem]">
                         Pizza Cafe
@@ -96,7 +96,7 @@ export default function Projects() {
             {current === 3 && (
               <>
                 <div className="flex flex-col items-center">
-                  <div className="flex bg-contact-img w-[40rem] h-[17rem] rounded-full">
+                  <div className="flex bg-[url('https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/images/bg-portfolio.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS9pbWFnZXMvYmctcG9ydGZvbGlvLmpwZyIsImlhdCI6MTcwMjkxNzUxMiwiZXhwIjoxNzM0NDUzNTEyfQ.MOR6h7oVV-4Xq6F-3Own_IeNwo-zilOeRKeVSRvpkmg&t=2023-12-18T16%3A38%3A32.721Z')] w-[40rem] h-[17rem] rounded-full">
                     <div className="flex flex-col">
                       <h2 className="text-h2 font-extrabold text-white mt-3 ml-[5rem]">
                         Merry Match

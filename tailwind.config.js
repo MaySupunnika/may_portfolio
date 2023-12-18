@@ -3,12 +3,6 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      backgroundImage: {
-        "project-img": "url('./src/assets/bg-project.png')",
-        "skill-img": "url('./src/assets/bg-white-small.png')",
-        "about-img": "url('./src/assets/bg-orange-contact.jpg')",
-        "contact-img": "url('./src/assets/bg-portfolio.jpg')",
-      },
       fontFamily: {
         Montserrat: ["Montserrat"],
       },

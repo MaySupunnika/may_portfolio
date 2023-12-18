@@ -209,7 +209,7 @@ export default function Projects() {
           <div className="lg:hidden w-[22rem] h-[22rem] mt-[10rem] ml-[2rem] absolute md:top-[102rem] md:left-[10.5rem] top-[97rem] left-[6rem] flex flex-col items-center ">
             <video
               className="md:w-[80%] w-[75%] h-auto object-cover bg-center"
-              src={courseFlowPreview}
+              src="https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/video/course-flow.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS92aWRlby9jb3Vyc2UtZmxvdy5tcDQiLCJpYXQiOjE3MDI5MTY2NDEsImV4cCI6MTczNDQ1MjY0MX0.sjugXWa0_Nbjt75TGx6twcoEJqYsnv2sklo_8Htgz8A&t=2023-12-18T16%3A24%3A01.649Z"
               type="video/mp4"
               autoPlay
               muted
@@ -233,7 +233,7 @@ export default function Projects() {
           <div className="lg:hidden w-[22rem] h-[22rem] mt-[10rem] ml-[2rem] absolute md:top-[102rem] md:left-[10.5rem] top-[97rem] left-[6rem] flex flex-col items-center">
             <video
               className="md:w-[80%] w-[75%] h-auto object-cover bg-center"
-              src={pizzaPreview}
+              src="https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/video/pizza-cafe-compression.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS92aWRlby9waXp6YS1jYWZlLWNvbXByZXNzaW9uLm1wNCIsImlhdCI6MTcwMjkxNjczMSwiZXhwIjoxNzM0NDUyNzMxfQ._kF9XAOC8F2Z1h9rBJE4YFUuAY9KldjDeeeld461Vlw&t=2023-12-18T16%3A25%3A31.910Z"
               type="video/mp4"
               autoPlay
               muted
@@ -257,7 +257,7 @@ export default function Projects() {
           <div className="lg:hidden w-[22rem] h-[22rem] mt-[10rem] ml-[2rem] absolute md:top-[102rem] md:left-[10.5rem] top-[97rem] left-[6rem] flex flex-col items-center">
             <video
               className="md:w-[80%] w-[75%] h-auto object-cover bg-center"
-              src={merryPreview}
+              src="https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/video/merry-match.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS92aWRlby9tZXJyeS1tYXRjaC5tcDQiLCJpYXQiOjE3MDI5MTY2NzUsImV4cCI6MTczNDQ1MjY3NX0.HZLU4tqd0tIfalIQHIAfdwDDg29ranGR-tqTTYGbMWw&t=2023-12-18T16%3A24%3A35.524Z"
               type="video/mp4"
               autoPlay
               muted

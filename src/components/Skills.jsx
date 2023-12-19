@@ -17,7 +17,11 @@ export default function Skills() {
               key={tool.id}
               className="flex flex-col items-center justify-center bg-white rounded-xl shadow-xl w-[6rem] h-[8rem] lg:w-[8rem] lg:h-[10rem] hover:animate-bounce hover:scale-110 duration-200"
             >
-              <img src={tool.icon} className="w-[3rem] lg:w-[4rem]" />
+              <img
+                src={tool.icon}
+                alt={tool.name}
+                className="w-[3rem] lg:w-[4rem]"
+              />
               <p className="text-b3 lg:text-b2 text-gray-100 font-semibold">
                 {tool.name}
               </p>

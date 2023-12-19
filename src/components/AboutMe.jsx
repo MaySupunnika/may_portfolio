@@ -19,9 +19,11 @@ export default function AboutMe() {
           <img
             className="w-0 absolute z-20 top-[32%] left-[-6%] lg:w-[39rem]"
             src="https://media3.giphy.com/media/MA0vkDWZNtO9vPfkUC/giphy.gif?cid=ecf05e470fb74ez5twyw3birqx4pfm14d0yadhgxmtij8gyb&ep=v1_stickers_search&rid=giphy.gif&ct=s"
+            alt="gif-frame"
           />
           <img
             src={Picture}
+            alt="my-picture"
             className="mr-[2rem] w-[12rem] h-[16rem] rounded-full lg:w-[15rem] lg:h-[15rem] lg:rounded-full object-cover"
           />
         </div>

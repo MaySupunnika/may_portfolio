@@ -53,6 +53,7 @@ export default function Projects() {
                     <img
                       className="h-[15.5rem] w-[15.5rem] mt-[0.7rem] ml-[2.5rem] rounded-full object-cover bg-center"
                       src={CourseFlow}
+                      alt="course-flow"
                     />
                   </div>
                   <div className="flex gap-2 mt-5">
@@ -83,6 +84,7 @@ export default function Projects() {
                     <img
                       className="h-[15.5rem] w-[15.5rem] mt-[0.7rem] ml-[0.8rem] rounded-full object-cover bg-center"
                       src={PizzaCafe}
+                      alt="pizza-cafe"
                     />
                   </div>
                   <div className="flex gap-2 mt-5">
@@ -112,6 +114,7 @@ export default function Projects() {
                     <img
                       className="h-[15.5rem] w-[15.5rem] mt-[0.7rem] ml-[2.3rem] rounded-full object-cover bg-center"
                       src={MerryMatch}
+                      alt="merry-match"
                     />
                   </div>
                   <div className="flex gap-2 mt-5">

@@ -28,7 +28,7 @@ export default function Projects() {
           <h1 className="text-h2 lg:text-h1 font-extrabold text-white mt-[2rem] mb-[3rem]">
             PROJECTS
           </h1>
-          <div className="md:scale-[65%] lg:scale-100 scale-[60%] flex items-center gap-5 ml-[-6rem] md:ml-[-2rem] lg:ml-[3rem] mt-[7rem] md:mt-[9rem] lg:mt-[4rem]">
+          <div className="md:scale-[65%] lg:scale-100 scale-[60%] flex items-center gap-5 ml-[-6rem] md:ml-[-2rem] lg:ml-[3rem] mt-[8rem] md:mt-[9rem] lg:mt-[4rem]">
             <p
               onClick={clickBack}
               className=" text-white text-[5rem] hover:text-orange-100 cursor-pointer"
@@ -206,7 +206,7 @@ export default function Projects() {
       </div>
       {current === 1 && (
         <>
-          <div className="lg:hidden w-[22rem] h-[22rem] mt-[10rem] ml-[2rem] absolute md:top-[102rem] md:left-[10.5rem] top-[97rem] left-[6rem] flex flex-col items-center ">
+          <div className="lg:hidden w-[22rem] h-[22rem] mt-[10rem] ml-[2rem] absolute md:top-[101.5rem] md:left-[10.5rem] top-[97rem] left-[6rem] flex flex-col items-center ">
             <video
               className="md:w-[80%] w-[75%] h-auto object-cover bg-center"
               src="https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/video/course-flow.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS92aWRlby9jb3Vyc2UtZmxvdy5tcDQiLCJpYXQiOjE3MDI5MTY2NDEsImV4cCI6MTczNDQ1MjY0MX0.sjugXWa0_Nbjt75TGx6twcoEJqYsnv2sklo_8Htgz8A&t=2023-12-18T16%3A24%3A01.649Z"
@@ -230,7 +230,7 @@ export default function Projects() {
       )}
       {current === 2 && (
         <>
-          <div className="lg:hidden w-[22rem] h-[22rem] mt-[10rem] ml-[2rem] absolute md:top-[102rem] md:left-[10.5rem] top-[97rem] left-[6rem] flex flex-col items-center">
+          <div className="lg:hidden w-[22rem] h-[22rem] mt-[10rem] ml-[2rem] absolute md:top-[101.5rem] md:left-[10.5rem] top-[97rem] left-[6rem] flex flex-col items-center">
             <video
               className="md:w-[80%] w-[75%] h-auto object-cover bg-center"
               src="https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/video/pizza-cafe-compression.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS92aWRlby9waXp6YS1jYWZlLWNvbXByZXNzaW9uLm1wNCIsImlhdCI6MTcwMjkxNjczMSwiZXhwIjoxNzM0NDUyNzMxfQ._kF9XAOC8F2Z1h9rBJE4YFUuAY9KldjDeeeld461Vlw&t=2023-12-18T16%3A25%3A31.910Z"
@@ -254,7 +254,7 @@ export default function Projects() {
       )}
       {current === 3 && (
         <>
-          <div className="lg:hidden w-[22rem] h-[22rem] mt-[10rem] ml-[2rem] absolute md:top-[102rem] md:left-[10.5rem] top-[97rem] left-[6rem] flex flex-col items-center">
+          <div className="lg:hidden w-[22rem] h-[22rem] mt-[10rem] ml-[2rem] absolute md:top-[101.5rem] md:left-[10.5rem] top-[97rem] left-[6rem] flex flex-col items-center">
             <video
               className="md:w-[80%] w-[75%] h-auto object-cover bg-center"
               src="https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/video/merry-match.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS92aWRlby9tZXJyeS1tYXRjaC5tcDQiLCJpYXQiOjE3MDI5MTY2NzUsImV4cCI6MTczNDQ1MjY3NX0.HZLU4tqd0tIfalIQHIAfdwDDg29ranGR-tqTTYGbMWw&t=2023-12-18T16%3A24%3A35.524Z"

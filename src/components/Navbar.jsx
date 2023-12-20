@@ -33,17 +33,21 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`w-screen h-[5rem] fixed top-0 left-0 right-0 transition ease-linear z-50 bg-orange-100 ${
+        className={`w-screen overflow-x-hidden lg:h-[5rem] md:h-[5rem] h-[4rem] fixed top-0 left-0 right-0 transition ease-linear z-50 bg-orange-100  ${
           scrolled ? "lg:bg-orange-100" : "lg:bg-transparent"
         }`}
       >
-        <div className="flex justify-between lg:justify-between mx-[4rem] h-[100%]">
+        <div className="flex justify-between lg:justify-between mx-7 lg:mx-[4rem] h-[100%]">
           <div className="flex" id="women-name">
             <div className="h-[100%] flex items-center">
-              <img src={Women} alt="women-icon" className="w-[3rem] h-[3rem]" />
+              <img
+                src={Women}
+                alt="women-icon"
+                className="w-[2rem] h-[2rem] lg:w-[3rem] lg:h-[3rem]"
+              />
             </div>
             <Link to="Home" smooth={true} className="flex items-center">
-              <h2 className="text-h2 font-bold text-white cursor-pointer hover:tracking-[3px] duration-200">
+              <h2 className="text-h3 lg:text-h2 font-bold text-white cursor-pointer hover:tracking-[3px] duration-200">
                 SUPUNNIKA
               </h2>
             </Link>
@@ -86,9 +90,9 @@ export default function Navbar() {
             onClick={clickHamburger}
             className="flex flex-col mt-6 gap-1 lg:hidden cursor-pointer"
           >
-            <div className=" bg-white w-[2rem] h-[5px]"></div>
-            <div className="bg-white w-[2rem] h-[5px]"></div>
-            <div className="bg-white w-[2rem] h-[5px]"></div>
+            <div className=" bg-white w-[2rem] h-[3px] lg:h-[5px]"></div>
+            <div className="bg-white w-[2rem] h-[3px] lg:h-[5px]"></div>
+            <div className="bg-white w-[2rem] h-[3px] lg:h-[5px]"></div>
           </div>
         </div>
         {isActive ? (

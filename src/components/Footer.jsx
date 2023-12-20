@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <div className="flex flex-col">
         <div
-          className="h-[12rem] lg:h-[20rem] bg-[url('https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/images/bg-portfolio.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS9pbWFnZXMvYmctcG9ydGZvbGlvLmpwZyIsImlhdCI6MTcwMjkxNzUxMiwiZXhwIjoxNzM0NDUzNTEyfQ.MOR6h7oVV-4Xq6F-3Own_IeNwo-zilOeRKeVSRvpkmg&t=2023-12-18T16%3A38%3A32.721Z')] flex"
+          className=" h-[12rem] lg:h-[20rem] bg-[url('https://pisulwuqrrzwvivwrwva.supabase.co/storage/v1/object/sign/dev-storage/images/bg-portfolio.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkZXYtc3RvcmFnZS9pbWFnZXMvYmctcG9ydGZvbGlvLmpwZyIsImlhdCI6MTcwMjkxNzUxMiwiZXhwIjoxNzM0NDUzNTEyfQ.MOR6h7oVV-4Xq6F-3Own_IeNwo-zilOeRKeVSRvpkmg&t=2023-12-18T16%3A38%3A32.721Z')] flex"
           id="Contact"
         >
           <img
@@ -13,7 +13,7 @@ export default function Footer() {
             alt="calling-me"
             className="lg:w-[17rem] w-0"
           />
-          <div className="flex flex-col ml-[1rem] lg:ml-[3rem] mt-[1rem] lg:mt-[3rem]">
+          <div className="flex flex-col w-[10rem] ml-[1rem] lg:ml-[3rem] mt-[1rem] lg:mt-[3rem] max-[640px]:scale-[80%]">
             <div className="flex flex-col">
               <h3 className="text-b2 lg:text-h3 text-white font-bold">
                 Email:
@@ -38,7 +38,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col ml-[3rem] mt-[1rem] lg:mt-[3rem]">
+          <div className="flex flex-col max-[640px]:ml-[1rem] lg:ml-[9.5rem] ml-[3rem] mt-[1rem] lg:mt-[3rem] max-[640px]:scale-[80%] ">
             <div className="flex flex-col">
               <h3 className="text-b2 lg:text-h3 text-white font-bold">
                 Github:
@@ -65,7 +65,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <p className="text-xs">Copyright © 2023. All rights are reserved.</p>
+        <p className="flex justify-center text-xs max-[640px]:text-[8px]">
+          Copyright © 2023. All rights are reserved.
+        </p>
       </div>
     </>
   );

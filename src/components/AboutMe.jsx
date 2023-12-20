@@ -24,19 +24,19 @@ export default function AboutMe() {
           <img
             src={Picture}
             alt="my-picture"
-            className="mr-[2rem] w-[12rem] h-[16rem] rounded-full lg:w-[15rem] lg:h-[15rem] lg:rounded-full object-cover"
+            className="max-[640px]:relative max-[640px]:top-[-3rem] max-[640px]:right-[-4rem] mr-[2rem] w-[12rem] h-[16rem] rounded-full max-[640px]:w-[35rem] max-[640px]:h-auto lg:w-[15rem] lg:h-[15rem] lg:rounded-full object-cover"
           />
         </div>
         <div className="relative pr-[5rem] w-[45rem] lg:w-[41rem] h-screen bg-gradient-to-l from-gray-100">
-          <h2 className="pl-[2.5rem] md:pl-[1.5rem] pt-[17rem] lg:pt-[17rem] text-b2 lg:text-b1 font-semibold text-white w-[100%] lg:w-[80%]">
-            <span className="text-h1 lg:text-[6rem] absolute top-[38%] lg:top-[31%] left-[-4%] lg:left-[-11%]">
+          <h2 className="pl-[2.5rem] md:pl-[1.5rem] pt-[17rem] lg:pt-[17rem] text-b2 lg:text-b1 font-semibold text-white max-[640px]:w-[18.2rem] max-[640px]:absolute max-[640px]:top-[6rem] max-[640px]:right-[4.5rem] w-[100%] lg:w-[80%]">
+            <span className="text-h1 lg:text-[6rem] max-[640px]:text-h2 absolute max-[768px]:top-[35%] max-[640px]:top-[55%] max-[640px]:left-[-1%] top-[38%] lg:top-[31%] left-[-4%] lg:left-[-11%]">
               ❝
             </span>
             My name is Supunnika Poklin. I graduated with a bachelor's degree
             from Thammasat University with a major in materials science, but I
             have a passion for coding. And then I started to learn about
             Full-Stack Developers.
-            <span className="text-h1 lg:text-[6rem] absolute top-[73%] md:top-[60%] md:right-[12%] lg:top-[58%] right-[20%]">
+            <span className="text-h1 max-[640px]:text-h2 lg:text-[6rem] absolute top-[73%] max-[768px]:top-[62%] max-[640px]:top-[96%] max-[640px]:right-[3%] md:top-[60%] md:right-[12%] lg:top-[58%] right-[20%]">
               ❞
             </span>
           </h2>

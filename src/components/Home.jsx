@@ -11,8 +11,8 @@ export default function Home() {
           muted
           loop
         />
-        <div className="absolute md:top-[35%] md:right-[18%] lg:top-[35%] lg:left-[12%] top-[25%] right-[11%] z-10 flex flex-col justify-center items-center">
-          <h1 className="lg:text-[5rem] text-h2 font-bold text-white">
+        <div className="absolute max-[768px]:bottom-[27rem] max-[768px]:left-[2rem] max-[640px]:top-[8rem] max-[640px]:right-[3rem] md:top-[35%] md:right-[18%] lg:top-[35%] lg:left-[12%] top-[25%] right-[11%] z-10 flex flex-col justify-center items-center">
+          <h1 className="max-[640px]:text-h3 lg:text-[5rem] text-h2 font-bold text-white">
             <span className="hover:text-orange-100">H</span>
             <span className="hover:text-orange-100">e</span>
             <span className="hover:text-orange-100">l</span>
@@ -27,7 +27,7 @@ export default function Home() {
             <span className="hover:text-orange-100">Y</span>
             <span className="hover:text-orange-100">.</span>
           </h1>
-          <h1 className="font-bold text-white text-h2 lg:text-[5rem]">
+          <h1 className="font-bold text-white max-[640px]:text-h3 text-h2 lg:text-[5rem]">
             <span className="hover:text-orange-100">W</span>
             <span className="hover:text-orange-100">e</span>
             <span className="hover:text-orange-100">l</span>

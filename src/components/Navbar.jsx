@@ -33,8 +33,8 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`w-screen overflow-x-hidden lg:h-[5rem] md:h-[5rem] h-[4rem] fixed top-0 left-0 right-0 transition ease-linear z-50 bg-orange-100  ${
-          scrolled ? "lg:bg-orange-100" : "lg:bg-transparent"
+        className={`w-screen overflow-x-hidden lg:h-[5rem] md:h-[5rem] h-[4rem] fixed top-0 left-0 right-0 transition ease-linear z-50   ${
+          scrolled ? "bg-orange-100" : "bg-transparent"
         }`}
       >
         <div className="flex justify-between lg:justify-between mx-7 lg:mx-[4rem] h-[100%]">

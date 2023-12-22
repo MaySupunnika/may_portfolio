@@ -195,7 +195,7 @@ export default function Projects() {
               />
               <a
                 className=" text-b2 text-orange-100 font-semibold mt-3 "
-                href="https://github.com/piyawaleesn/Merry-Match"
+                href="https://github.com/MaySupunnika/merry-match"
                 target="_blank"
               >
                 Go to Github
